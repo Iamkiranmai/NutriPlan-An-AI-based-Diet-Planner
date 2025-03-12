@@ -68,11 +68,12 @@ Users can define their dietary preferences by adjusting macronutrient sliders.
 *   Users can modify macronutrient goals based on their individual health needs.
 OUTPUTS:
 
-<img width="1429" alt="Screenshot 2025-03-12 at 6 28 26 PM" src="https://github.com/user-attachments/assets/950e9e45-4f97-433e-b7d5-2d0ce2ce13d2" />
-<img width="1429" alt="Screenshot 2025-03-12 at 6 28 15 PM" src="https://github.com/user-attachments/assets/0998a524-118d-4c47-86e1-d3d394a17dba" />
-<img width="1429" alt="Screenshot 2025-03-12 at 6 28 00 PM" src="https://github.com/user-attachments/assets/8920fc91-3f56-442e-890c-d32a24f683a9" />
-<img width="1429" alt="Screenshot 2025-03-12 at 6 27 37 PM" src="https://github.com/user-attachments/assets/183367cf-7325-4489-b10c-6de706996eb9" />
-<img width="1429" alt="Screenshot 2025-03-12 at 6 27 14 PM" src="https://github.com/user-attachments/assets/a45e72f4-4384-4c9f-ac08-e16059d41725" />
+<img width="1429" alt="Screenshot 2025-03-12 at 6 28 00 PM" src="https://github.com/user-attachments/assets/13d30bab-449e-44f7-89ec-3c6ab3c31b38" />
+<img width="1429<img width="1429" alt="Screenshot 2025-03-12 at 6 28 26 PM" src="https://github.com/user-attachments/assets/59d40060-0552-4101-8d88-59e833bf1320" />
+<img width="1429" alt="Screenshot 2025-03-12 at 6 28 15 PM" src="https://github.com/user-attachments/assets/1d1c9bb3-a707-4ce3-a896-0f0c25ba2cf6" />
+" alt="Screenshot 2025-03-12 at 6 27 37 PM" src="https://github.com/user-attachments/assets/733532b2-c96c-48ea-b1ff-09a195eca293" />
+<img width="1429" alt="Screenshot 2025-03-12 at 6 27 14 PM" src="https://github.com/user-attachments/assets/48629694-58fd-4093-8e5a-18be7c990e73" />
+
 
 
 
