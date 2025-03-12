@@ -1,63 +1,80 @@
-# BakeOff2 - NutriPlan
+NutriPlan-AI based diet planner 
 
-## Description
-NutriPlan is a nutrition/diet web application. It allows users to set up a dietary plan and search for food items using the Nutritionix database. The AI will give food recommendations based on features extracted from the foods, user input, and dietary needs. It can also nicely display prospective nutritional data based off these food suggestions. Recommended calorie requirements are determined using the most recent Estimated Energy Requirement (EER) equation [1][2]. 
+Overview
 
-## Installation Guide
-1. Install python 3.
-2. Install flask using `pip install flask`
-3. Run the server using `python flask_server.py`
+NutriPlan is an AI-driven web application designed for nutrition and diet planning. It empowers users to create personalized dietary plans and search for food items using the Nutritionix database. The system intelligently recommends foods based on extracted nutritional features, individual user preferences, and specific dietary goals. Furthermore, it provides a comprehensive nutritional breakdown of suggested foods, utilizing the latest Estimated Energy Requirement (EER) equation [1][2].
+
+Installation Instructions
+
+1.  Ensure that Python 3 is installed on your system.
+2.  Install Flask by executing the following command:
+
+    ```bash
+    pip install flask
+    ```
+3.  Start the Flask server using the command:
+
+    ```bash
+    python flask_server.py
+    ```
+
+How to Use
+
+Searching & Adding Foods
+
+Users can search for food items to add to their food log via the Nutritionix NLP API [6]. The search functionality supports multiple food items within a single query.
+
+Example:
+
+If a user enters multiple food items in the search bar, such as:
+
+🍎🥑 "1 apple, 2 eggs, a bowl of rice"
+
+the system will analyze the input and display the food items in a results table [5].
+
+📌 Adding to Nutrition Log
+
+*   Click the double arrow icon to transfer food details into the nutrition label [7].
+*   Select the desired date and time to log the food.
+
+Food History & Logs
+
+Users can track their food intake history for any selected day.
+
+✅ Features:
+
+*   View past entries in the food history log.
+*   Delete items from the history log using the delete icon.
+*   Labels indicate whether a food is high or low in specific macronutrients.
+*   Clicking on a label displays a Decision Tree AI model, providing an explanation of how the classification was determined.
+
+Nutritional Tracking & Graphs
+
+This section offers an interactive breakdown of daily macronutrient intake.
+
+📊 Features:
+
+*   Users can select a date and view their macronutrient breakdown in various graph formats [8].
+*   The system suggests additional foods to help balance nutrition levels.
+*   Users have the option to reject specific food suggestions by adding them to a "Do Not Suggest" list.
+
+Personalized Diet Planning
+
+Users can define their dietary preferences by adjusting macronutrient sliders.
+
+📌 Key Features:
+
+*   Recommended intake values are provided.
+*   Users can modify macronutrient goals based on their individual health needs.
+OUTPUTS:
+
+<img width="1429" alt="Screenshot 2025-03-12 at 6 28 26 PM" src="https://github.com/user-attachments/assets/950e9e45-4f97-433e-b7d5-2d0ce2ce13d2" />
+<img width="1429" alt="Screenshot 2025-03-12 at 6 28 15 PM" src="https://github.com/user-attachments/assets/0998a524-118d-4c47-86e1-d3d394a17dba" />
+<img width="1429" alt="Screenshot 2025-03-12 at 6 28 00 PM" src="https://github.com/user-attachments/assets/8920fc91-3f56-442e-890c-d32a24f683a9" />
+<img width="1429" alt="Screenshot 2025-03-12 at 6 27 37 PM" src="https://github.com/user-attachments/assets/183367cf-7325-4489-b10c-6de706996eb9" />
+<img width="1429" alt="Screenshot 2025-03-12 at 6 27 14 PM" src="https://github.com/user-attachments/assets/a45e72f4-4384-4c9f-ac08-e16059d41725" />
 
 
-## Video Demo
 
-[![Video Demo](/pictures/video.png)](https://youtu.be/qHQXprU_Wno)
-
-## Usage
-
-### Adding a Food
-This page allows users to add foods to their food log. Through the Nutritionix NLP API[6], the query can consist of multiple food items. For example: 
-
-![Search 1](/pictures/index_search.PNG)
-
-This will then add the food items to the results datatable[5]:
-
-![Search 2](/pictures/index_search2.PNG)
-
-Finally, clicking the double arrow icon will propogate the nutrition facts to the nutrition label[7], and the user can select the time and date to add the food to the food log.
-
-![Search 3](/pictures/index_search3.PNG)
-
-When searching for foods, it will also add the food to our local database. A feature extraction algorithm is run to label the foods as High/Low in its macronutrient contents. This will later be used in our food suggestions.
-
-### Food History Log
-This page shows the user food history for the selected day. After loading the data, the user can also delete items from their history by pressing the delete icon. Feedback is incorporated by adding the labels in the history tab. When clicking on the labels, the decision tree algorithm is displayed to show the user how it came upon this label to incorporate explainable AI. For the demo's sake, the rules are also presented and made editable by the user.
-
-![History 1](/pictures/history1.PNG)
-
-### Tracking Nutrition
-This page shows the macronutrient breakdown for the selected day. For example, the user can select a day and then a type of graph[8] to show the macronutrient breakdown for that day.
-
-![Track 1](/pictures/track1.PNG)
-
-This will also load the food suggestions. The user can then see how eating said food will change their nutrient breakdown.
-
-![Track 2](/pictures/track2.PNG)
-
-By clicking the trash icon, the user can add the items to a "do not suggest" list. These items will not be suggested in the future.
-
-### User Preferences
-This page allows the user to develop their own user preferences/diet plan. Recommended values are given, and the user can adjust macronutrient needs as necessary using the sliders.
-
-![Track 2](/pictures/preferences1.PNG)
-
-### References and Resources
-1. EER Equations - https://www.nap.edu/read/11537/chapter/8
-2. EER Equations - http://www.nationalacademies.org/hmd/~/media/Files/Activity%20Files/Nutrition/DRI-Tables/8_Macronutrient%20Summary.pdf
-3. Python Flask - https://www.palletsprojects.com/p/flask/
-4. Jquery - https://jquery.com/
-5. Jquery Datatables - https://datatables.net/
-6. Nutritionix API - https://developer.nutritionix.com/docs/v2
-7. Nutritionix Nutrition Label - https://github.com/nutritionix/nutrition-label
-8. Chart.js - https://www.chartjs.org/docs/latest/
-9. Jquery UI - https://jqueryui.com/
+  
+                                                                                                 THANK YOU
