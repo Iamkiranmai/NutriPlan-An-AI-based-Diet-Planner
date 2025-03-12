@@ -6,8 +6,6 @@ from flask import request
 from flask import jsonify
 from flask_socketio import SocketIO, emit
 import openai
-
-# --- Define a local Web server --- #
 app = Flask(__name__)
 
 
