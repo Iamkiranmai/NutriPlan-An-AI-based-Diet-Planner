@@ -3,6 +3,9 @@ NutriPlan-AI based diet planner
 Overview
 
 NutriPlan is an AI-driven web application designed for nutrition and diet planning. It empowers users to create personalized dietary plans and search for food items using the Nutritionix database. The system intelligently recommends foods based on extracted nutritional features, individual user preferences, and specific dietary goals. Furthermore, it provides a comprehensive nutritional breakdown of suggested foods, utilizing the latest Estimated Energy Requirement (EER) equation [1][2].
+## Project Architecture
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/77cb8997-8079-4f64-8361-91728e4c15a8" />
+
 
 Installation Instructions
 
